@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"tt",
+				"tt:n	text-transform:none"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"lis",
+				"lis:n	list-style:none"
+			],
+			[
+				"poi",
+				"pointer-events"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"mw",
+				"min-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"white",
+				"whitebox"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Std",
+				"stdHeader"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"co",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/endophasie/Documents/proj/jetbrains/jetbrainsresearch/public/static/css/style.css",
+		"/Users/endophasie/Dropbox/Project/Work/jetbrains fe/html/404.html",
+		"/Users/endophasie/Dropbox/Project/Work/jetbrains fe/html/scss/main.scss",
+		"/Users/endophasie/Documents/proj/gulp-test/bower.json",
+		"/Users/endophasie/Dropbox/Project/Work/jetbrains fe/html/bower_components/jquery/bower.json",
+		"/Users/endophasie/Documents/proj/gulp-test/public/bower.json",
+		"/Users/endophasie/Dropbox/Project/Work/JetBrains FE/html/scss/main.scss",
+		"/Users/endophasie/Documents/proj/lectures/static/js/script.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/info.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/css/legacy/common.css",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/appengine-generated/HeV7uD_cOnyUqHhRUF0OJw",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/workplace.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/workplace-main-templates.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/appengine-generated/OK3hR5-QlTQxFU3DLhl3PQ",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/robots.txt",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/msgs/translation.en.json",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/msgs/translation.dev.json",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/msgs/translation.de.json",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/.sass-cache/3ddded80a8267623554a067e34576cf12f1bfdc7/_px-to-rem.scssc",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/libs/typeahead.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/msgs/translation.ru.json",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/info.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/stdapp.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/workplace.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/workplace.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/locale-de.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/cliniclist.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/cliniclist.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/home.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/home.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/tags/stdmain.tag",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/_search-diag-view.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/clinicinfo.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/clinic-info.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/_calendar.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/settings.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/login.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/settings.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/settings.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/_notifications.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/createrequest.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/login.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/stdinit.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/rq-defs.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/clinic-info.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/home_rq_templates.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/home.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/home-request.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/workplace-booking.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/workplace-messaging-templates.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/workplace_old.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/workplace-settings.js",
+		"/Users/endophasie/Dropbox/Project/Work/JetBrains FE/html/js/script.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/notifications.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/start.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/wunderdoc-models.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/login.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/workplace.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/workplace.js.orig",
+		"/Users/endophasie/Dropbox/Project/common.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/drg-testing.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/workplace-router.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/appengine-generated/l2Oer9J-3J6EXTmK6NRy4A",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/loginError.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/libs/jquery.number.min.js-orig",
+		"/Users/endophasie/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/endophasie/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/workplace-requests.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/workplace-messages.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/legacy/workplace-dialog.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/workplace-rqm.js",
+		"/Users/endophasie/Dropbox/Project/Work/Сергей Старчиков/Жалюзи/html/package.json",
+		"/Users/endophasie/Dropbox/Project/Work/Сергей Старчиков/Жалюзи/html/Gruntfile.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/workplace_new.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/private/legacy/workplace.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/_mixins.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/search-diag-view.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/stdapp.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/workplace-request-editor.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/legacy/workplace-router.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/cliniclist.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/workplace-old.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/workplace-settings.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/workplace-requests.js",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/tags/stdbasic.tag",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/tags/stdmail.tag",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/js/home-request.js.orig",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/_common.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/.hgignore",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/tags/stdtemplate.tag",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/legacy/home.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/start.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/WEB-INF/tags/std_common_templates.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/_common-css-switchers.scss",
+		"/Users/endophasie/Dropbox/Project/Work/На дереве/html/css/style.css",
+		"/Users/endophasie/Dropbox/Project/Work/На дереве/html/index.html",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/_common-colors.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/drg-testing.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/sass/typeahead-diag.scss",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/alpha/drg.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/legacy/login.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/war/public/legacy/chat.jsp",
+		"/Users/endophasie/Documents/proj/wunderdoc/run.properties"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/endophasie/Documents/proj/wunderdoc/war",
+			"/Users/endophasie/Documents/proj/wunderdoc/war/js",
+			"/Users/endophasie/Documents/proj/wunderdoc/war",
+			"/Users/endophasie/Documents/proj/wunderdoc/war/sass",
+			"/Users/endophasie/Documents/proj/wunderdoc/war",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"base64",
+			"base",
+			"home-landpage-header",
+			"content:",
+			"content",
+			"vh",
+			"100vh",
+			"second-pa",
+			"480",
+			"1400",
+			"min-height: 1400px;",
+			"market",
+			"white",
+			"height: auto",
+			"@import 'calendar'",
+			"footer",
+			"std-select-container-white",
+			"col-md-12",
+			"Mozilla Persona",
+			".std-footer",
+			"dialog-message-attachments",
+			"dialog-message-ask-booking-calendar-container",
+			"i {",
+			"Выберите дату или период д",
+			"Выберите дату или период дат в который Вы готовы принять пациента в клинике. ",
+			"Выберите дату или период дат в который Вы готовы принять пациента в клинике. Укажите предварительную стоимость лечения в поле или приложите счет отде",
+			"Выберите дату или период дат в который Вы готовы принять пациента в клинике. Укажите предварительную стоимость лечения в поле или приложите счет отдельным файлом.",
+			"clinic-rating-info-link",
+			"booking",
+			"dialog",
+			"rq_booking_select_range",
+			"dialog-new-message-booking-comment",
+			"rq_booking_select_range",
+			"Выберите доступное для лечения время",
+			"app.activeTab",
+			"ifCond",
+			"fa",
+			"workplace-tab-icon",
+			"workplace_tab_support_clinic",
+			"tab-item",
+			"supp",
+			"dialog-foreign-message",
+			"stat",
+			"wunderdoc-name",
+			"dialog-message-ask-booking-calendar",
+			"dialog-message-ask-booking-calendar-container",
+			"workplace-request",
+			"MANAGEMENT.REQUEST",
+			"currentRequest",
+			"accepted",
+			"status",
+			"workplace-request-status",
+			"width: 150px;",
+			"input[type=\"submit\"]",
+			"home-search-widget-conte",
+			"home-search-widget-content ",
+			"std-header-locales",
+			"std-title",
+			"std-header-login-block",
+			"notification-list-content",
+			".std-notification-list-content",
+			"#f2f4f5",
+			".std-notification-list-content",
+			"std-notifications-counter",
+			".std-notifications-counter",
+			"std-notifications-counter",
+			".std-notifications-counter",
+			"placeho",
+			"std-butt",
+			"descr",
+			"translat",
+			"std-radio-container-hlight",
+			"calen",
+			"strong",
+			"-title",
+			"title",
+			"std-price",
+			".std-no-split",
+			".std-inline-block",
+			"padding: 10px;",
+			"std-header-settings-icon",
+			"std-header-settings-list",
+			"workplace-request-details-person",
+			"workplace-request-details-title",
+			"i.fa",
+			"place",
+			"workplace-request-new-message-attachments-clear-btn",
+			"dialog-new-message-attachments-body",
+			"workplace-request-new-message-attachments-clear-btn-text",
+			"dialog-message-name",
+			"message.text",
+			"dialog-message-body-text",
+			"std_clinic_deps_descr_more",
+			"\"\"",
+			"clinic-info-contact",
+			"clinic-dep-show-desc",
+			"sw-collapsed",
+			"clinic-dep-info",
+			"std-highlight-text",
+			"clinic-rating-title",
+			"clinic-info-contact-title",
+			"strong",
+			"rq-clinic-desc",
+			"strong",
+			"std-radio",
+			"rq-clinic-title-link",
+			"@include placeholder",
+			"placehold",
+			"textarea",
+			"989898",
+			"select",
+			"select-wrapper",
+			"min-height: 1400px;",
+			"std-select",
+			"select-wrapper",
+			"std-select-container-white",
+			"select",
+			"radio",
+			"transition",
+			"workplace-request-clinic-link",
+			"home-landpage-search-req-diag",
+			"home-landpage-search-block",
+			"home-landpage-search-hint",
+			"std_footer_info",
+			"footer",
+			"home-landpage-help-link",
+			"std-header-chat-txt",
+			"radio"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rq",
+			"$std-form-highlight-color-txt"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "boommy.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"comm",
+				"sass/_common-colors.scss"
+			],
+			[
+				"tra",
+				"msgs/translation.ru.json"
+			],
+			[
+				"",
+				"sass/_mixins.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Project/Work/На дереве/html/index.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
