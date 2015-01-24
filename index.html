@@ -2,11 +2,328 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/script.js"></script>
 	<title>Boommy — Main page</title>
 </head>
-<body>
-	
+<body class="page">
+	<div class="page__header">
+	    <div class="page__container">
+	        <header class="header row" id="header" data-is-anonymous="false" data-user-id="540161">
+	            <div class="col-2">
+	                <div class="logo header__logo">
+	                    <a class="logo__link" href="/">
+	                            <img class="logo__image" alt="Boommy" title="Boommy" src="img/logo_header.png">
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="col-5 header__col_search">
+	                <form id="header__search" class="control-search control-search_header" action="/search" method="get">
+	                    <input class="control-search__field" type="search" name="q" placeholder="Поиск среди 163.000 вещей">
+	                    <button class="control-search__button">&nbsp;</button>
+	                </form>
+	            </div>
+	            <div class="col-2 header__col_sell">
+	                <a class="btn-stroke btn-stroke_green btn-stroke_rounded header__sell-btn bm-action_item_sell" href="/item/add" title="Добавим новую вещь?">
+	                    <i class="icon icon_size_sm icon_user_sell"></i><span class="btn-stroke__text">&nbsp;Продать вещь</span>
+	                </a>
+	            </div>
+	            <div class="col-3">
+	                <div class="user-menu user-menu_with_dropdown">
+	                    <div class="user-menu__head">
+	                        <a class="user user_size_sm user-menu__switcher" href="/user/540161/wears">
+	                            <span class="user__icon" style="background-image: url(http://cs5.boommy.ru/storage/d5/b9/2a/10/2f/90/45/bb/49ef-5a6423-b9ea52.jpg)">
+	                            </span><span class="user__name">Альбина</span>
+	                        </a>
+
+	                        <span class="user-menu__icons">
+	                                <a class="icon icon_size_md icon_wear" href="/user/540161/wears"></a>
+
+	                                <a class="icon icon_size_md icon_message" href="/my/comments">
+	                                </a>
+
+	                            <a class="icon icon_size_md icon_favorite" href="/my/likes"></a>
+	                        </span>
+
+	                    </div>
+	                    <div class="user-menu__dropdown">
+	                        <ul class="user-menu__list">
+	                            <li class="user-menu__unit">
+	                                <a class="user-menu__link bm-action_item_sell" href="/item/add">
+	                                    <i class="icon icon_size_sm icon_user_sell"></i>
+	                                    <span class="user-menu__link-name">Продать вещь</span>
+	                                </a>
+
+	                            </li><li class="user-menu__unit">
+	                                <a class="user-menu__link" href="/user/540161/wears">
+	                                    <i class="icon icon_size_sm icon_user_wear"></i>
+	                                    <span class="user-menu__link-name">Мои вещи</span>
+	                                    <span class="user-menu__count user-menu__count_hidden">
+	                                        0
+	                                    </span>
+	                                </a>
+
+
+								</li><li class="user-menu__unit">
+									<a class="user-menu__link" href="/my/comments">
+										<i class="icon icon_size_sm icon_user_message"></i>
+										<span class="user-menu__link-name">Сообщения</span>
+										<span class="user-menu__count user-menu__count_hidden">
+											0
+										</span>
+									</a>
+
+	                            </li><li class="user-menu__unit">
+	                                <a class="user-menu__link" href="/my/purchases">
+	                                    <i class="icon icon_size_sm icon_user_orders"></i>
+		                                <span class="user-menu__link-name">Мои заказы</span>
+										<span class="user-menu__count user-menu__count_hidden">
+											0
+										</span>
+	                                </a>
+
+	                            </li><li class="user-menu__unit">
+	                                <a class="user-menu__link" href="/account">
+	                                    <i class="icon icon_size_sm icon_user_wallet"></i>
+	                                    <span class="user-menu__link-name">Кошелек</span>
+	                                </a>
+	                            
+								</li><li class="user-menu__unit">
+	                                <a class="user-menu__link" href="/my/likes">
+	                                    <i class="icon icon_size_sm icon_user_favorite"></i>
+	                                    <span class="user-menu__link-name">Избранное</span>
+	                                    <span class="user-menu__count user-menu__count_hidden">
+	                                        0
+	                                    </span>
+	                                </a>
+
+	                            </li><li class="user-menu__unit">
+	                                <a class="user-menu__link" href="/user/settings">
+	                                    <i class="icon icon_size_sm icon_user_settings"></i>
+	                                    <span class="user-menu__link-name">Настройки</span>
+	                                </a>
+
+	                            </li><li class="user-menu__unit">
+	                                <a class="user-menu__link" href="/logout">
+	                                    <i class="icon icon_size_sm icon_user_logout"></i>
+	                                    <span class="user-menu__link-name">Выйти</span>
+	                                </a>
+
+	                        </li></ul>
+	                    </div>
+	                </div>
+	            </div>
+	        </header>
+	    </div>
+	</div>
+	<div class="page__nav page__nav_main">
+	    <div class="page__container">
+	        <div class="nav" role="navigation">
+	            <div class="menu menu_theme_main nav__menu">
+	                <ul class="menu__layout">
+	                    <li class="menu__unit">
+	                        <div class="menu__item ">
+	                            <a class="menu__link" href="/feed">Новинки</a>
+	                        </div>
+	                    </li>
+	                    <li class="menu__unit">
+	                        <div class="menu__item ">
+	                            <a class="menu__link" href="/category">Одежда</a>
+	                        </div>
+	                    </li>
+	                    <li class="menu__unit">
+	                        <div class="menu__item ">
+	                            <a class="menu__link" href="/footwear">Обувь</a>
+	                        </div>
+	                    </li>
+	                    <li class="menu__unit">
+	                        <div class="menu__item ">
+	                            <a class="menu__link" href="/handbags">Сумки</a>
+	                        </div>
+	                    </li>
+	                    <li class="menu__unit">
+	                        <div class="menu__item ">
+	                            <a class="menu__link" href="/accessories">Аксессуары</a>
+	                        </div>
+	                    </li>
+	                    <li class="menu__unit">
+	                        <div class="menu__item ">
+	                            <a class="menu__link" href="/kids">Для детей</a>
+	                        </div>
+	                	</li>
+	                </ul>
+	            </div>
+	            <div class="menu menu_theme_main nav__additional-menu">
+	                <ul class="menu__layout">
+                        <li class="menu__unit">
+                            <div class="menu__item ">
+                                <a class="menu__link" href="/howitworks#how-buy">Как купить</a>
+                            </div>
+                        </li>
+                        <li class="menu__unit">
+                            <div class="menu__item ">
+                                <a class="menu__link" href="/howitworks#how-sell">Как продать</a>
+                            </div>
+                        </li>
+                        <li class="menu__unit">
+                            <div class="menu__item ">
+                                <a class="menu__link" href="/article">Блог</a>
+                            </div>
+                        </li>
+	                </ul>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<section class="main-container">
+		<div class="main wrapper clearfix">
+			
+		</div>
+	</section>
+	<section class="page__nav page__nav_foot page__section page__section_even">
+	    <div class="page__container">
+	        <div class="nav nav_foot row" role="navigation">
+	            <div class="col-2">
+	                <div class="menu menu_theme_foot">
+	                    <h4 class="menu__title">О компании</h4>
+	                    <ul class="menu__layout">
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+									<a class="menu__link" href="/content/about">О проекте</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+									<a class="menu__link" href="/content/vacancy">Вакансии</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+									<a class="menu__link" href="/content/contacts">Контакты</a>
+	                            </div>
+	                    	</li>
+	                    </ul>
+	                </div>
+	            </div>
+	            <div class="col-5 offset-1">
+	                <div class="menu menu_theme_foot">
+	                    <h4 class="menu__title">Как это работает</h4>
+
+	                    <ul class="menu__layout">
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+	                                <a class="menu__link" href="/faq">Частые вопросы</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                        	<div class="menu__item">
+	                            	<a class="menu__link" href="/howitworks#how-buy">Как купить?</a>
+	                        	</div>
+	                        </li>
+	                        <li class="menu__unit">
+	                        	<div class="menu__item">
+	                            	<a class="menu__link" href="/howitworks#how-sell">Как продать?</a>
+	                        	</div>
+	                        </li>
+	                        <li class="menu__unit">
+	                        	<div class="menu__item">
+	                            	<a class="menu__link" href="/content/allowed">Что можно размещать</a>
+	                        	</div>
+	                    	</li>
+	                    </ul>
+
+	                    <ul class="menu__layout">
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+									<a class="menu__link" href="/content/notallowed">Что нельзя размещать</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+									<a class="menu__link" href="/content/photo">Требования к фото</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+									<a class="menu__link" href="/content/securetransaction">Безопасная сделка</a>
+	                            </div>
+	                    	</li>
+	                    </ul>
+	                </div>
+	            </div>
+	            <div class="col-3 offset-1">
+	                <div class="menu menu_theme_foot bm-target_catalog">
+	                    <h4 class="menu__title">Каталог</h4>
+
+	                    <ul class="menu__layout">
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+	                                <a class="menu__link" href="/feed">Новинки</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+	                                <a class="menu__link" href="/category">Одежда</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+	                                <a class="menu__link" href="/footwear">Обувь</a>
+	                            </div>
+	                    	</li>
+	                    </ul>
+
+	                    <ul class="menu__layout">
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+	                                <a class="menu__link" href="/handbags">Сумки</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+	                                <a class="menu__link" href="/accessories">Аксессуары</a>
+	                            </div>
+	                        </li>
+	                        <li class="menu__unit">
+	                            <div class="menu__item">
+	                                <a class="menu__link" href="/kids">Для детей</a>
+	                            </div>
+	                    	</li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<div class="page__footer">
+	    <div class="page__container">
+	        <footer class="footer">
+	            <div class="row">
+	                <div class="footer__col-logo">
+	                    <div class="logo footer__logo">
+	                        <img class="logo__image" src="img/logo_footer.png" alt="Boommy">
+	                    </div>
+	                    <div class="footer__copy">© 2014 Boommy Fashion</div>
+	                </div>
+	                <div class="footer__col-contacts">
+	                    <div class="footer__phone">
+	                        8 800 555 8224
+	                    </div>
+	                    <div class="footer__work-hours">
+	                        с 11 до 19 часов по Москве
+	                    </div>
+	                </div>
+	                <div class="footer__col-central">
+	                    <div class="footer__agreement">
+	                        Если вы используете Boommy, вы принимаете условия
+	                        <a href="/content/useragreement">Пользовательского соглашения</a>
+	                    </div>
+	                </div>
+	            </div>
+	        </footer>
+	    </div>
+	</div>
 </body>
 </html>
