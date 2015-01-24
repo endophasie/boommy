@@ -5,6 +5,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/chosen.jquery.min.js"></script>
 	<script src="js/script.js"></script>
 	<title>Boommy — Main page</title>
 </head>
@@ -180,10 +181,10 @@
 
 	<!--  SETTINGS BLOCK  -->
 
-	<section class="main-container">
+	<section class="main-container main_settings">
 		<div class="main wrapper clearfix">
 			<div class="main-container__title">
-				<h1 class="main__title">Настройки профиля</h1>
+				<h1 class="main__title page__container">Настройки профиля</h1>
 			</div>
 			<form action="" class="page__container container">
 				<div class="row">
@@ -202,11 +203,14 @@
 					</div>
 					<div class="col-4">
 						<h2 class="page__subtitle">Ваше фото</h2>
-						<div class="foto__box"><img src="img/user.jpg" height="130" width="130" alt="%username%" class="foto__img"><a href="#" class="link foto__link">удалить фото</a></div>
+						<div class="foto__box user_size_lg">
+							<span class="user__icon"></span>
+							<a href="#" class="link foto__link">удалить фото</a>
+						</div>
 					</div>
 				</div>
 				<div class="row">
-					<h2 class="page__subtitle">Контактная информация</h2>
+					<div class="col-12"><h2 class="page__subtitle">Контактная информация</h2></div>
 					<div class="row">
 						<div class="col-8">
 							<div class="col-6">
@@ -225,7 +229,7 @@
 					<div class="row">
 						<div class="col-8">
 							<div class="col-6">
-								<label for="" class="form__label">Телефон</label>
+								<label for="txt_phone" class="form__label">Телефон</label>
 								<input type="tel" name="phone" id="txt_phone" class="form__field">
 							</div>
 							<div class="col-6">
@@ -238,11 +242,21 @@
 						<div class="col-8">
 							<div class="col-6">
 								<label for="" class="form__label">Страна</label>
-								
+								<select data-placeholder="Выберете страну" width="279px" class="chosen-select" tabindex="2">
+						            <option value=""></option>
+						            <option value="United States">United States</option>
+						            <option value="United Kingdom">United Kingdom</option>
+						            <option value="United Kingdom">United Kingdom</option>
+					            </select>
 							</div>
 							<div class="col-6">
 								<label for="" class="form__label">Город</label>
-
+								<select data-placeholder="Выберете город" width="279px" class="chosen-select" tabindex="2">
+						            <option value=""></option>
+						            <option value="United States">United States</option>
+						            <option value="United Kingdom">United Kingdom</option>
+						            <option value="United Kingdom">United Kingdom</option>
+					            </select>
 							</div>
 						</div>
 						<div class="col-4">
@@ -256,8 +270,8 @@
 						<div class="row">
 							<div class="col-6">
 								<div class="social__container">
-									<span class="social__name social__icon_fb">Facebook</span>
-									<a href="#" class="link">привязать</a>
+									<a href="#" class="social__name social__icon social__icon_fb" title="Константин Константинопольский">Константин Константинопольский</a>
+									<a href="#" class="link">отвязать</a>
 								</div>
 							</div>
 							<div class="col-6">
@@ -268,7 +282,7 @@
 						<div class="row">
 							<div class="col-6">
 								<div class="social__container">
-									<span class="social__name social__icon_vk">Альбина Токарчук</span>
+									<a href="#" class="social__name social__icon social__icon_vk social__name_auth">Альбина Токарчук</a>
 									<a href="#" class="link">отвязать</a>
 								</div>
 							</div>
@@ -280,32 +294,30 @@
 						<div class="row">
 							<div class="col-6">
 								<div class="social__container">
-									<span class="social__name social__icon_ok">Facebook</span>
+									<a href="#" class="social__name social__icon social__icon_ok">Одноклассники</a>
 									<a href="#" class="link">привязать</a>
 								</div>
-							</div>
-							<div class="col-6">
-								<input type="checkbox" name="showHere-5" id="check_5" class="form__checkbox">
-								<label for="check_5" class="form__label_checkbox">отображать на сайте</label>
 							</div>
 						</div>
 					</div>
 					<div class="col-4">
 						<h2 class="page__subtitle">Уведомления</h2>
-						<div class="line">
-							<input type="checkbox" name="sendStatistic" id="check_6" class="form__checkbox">
-							<label for="check_6" class="form__label_checkbox">Хочу получать статистику по моим вещам</label>
-						</div>
-						<div class="line">
-							<input type="checkbox" name="sendNews" id="check_7" class="form__checkbox">
-							<label for="check_7" class="form__label_checkbox">Хочу получать новости сайта</label>
-						</div>
+						<ul class="list_basic">
+							<li class="list__item_basic">
+								<input type="checkbox" name="sendStatistic" id="check_6" class="form__checkbox">
+								<label for="check_6" class="form__label_checkbox">Хочу получать статистику по моим вещам</label>
+							</li>
+							<li class="list__item_basic">
+								<input type="checkbox" name="sendNews" id="check_7" class="form__checkbox">
+								<label for="check_7" class="form__label_checkbox">Хочу получать новости сайта</label>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 container__finalline">
+					<div class="col-12 container__final">
 						<input type="submit" value="Сохранить" class="btn-fill_green btn-fill btn-fill_size_lg btn-fill_rounded form__button form__submit">
-						<a href="#" class="link">удалить аккаунт</a>
+						<a href="#" class="link container__final__link">удалить аккаунт</a>
 					</div>
 				</div>
 			</form>
