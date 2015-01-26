@@ -12,7 +12,7 @@
 <body class="page">
 	<div class="page__header">
 	    <div class="page__container">
-	        <header class="header row" id="header" data-is-anonymous="false" data-user-id="540161">
+	        <header class="header row" id="header">
 	            <div class="col-2">
 	                <div class="logo header__logo">
 	                    <a class="logo__link" href="/">
@@ -184,74 +184,72 @@
 	<section class="main-container main_settings">
 		<div class="main wrapper clearfix">
 			<div class="main-container__title">
-				<h1 class="main__title page__container">Настройки профиля</h1>
+				<h1 class="main__title page__container">Настройка профиля</h1>
 			</div>
-			<form action="" class="page__container container">
-				<div class="row">
-					<div class="col-8">
+			<form action="" id="settingsForm" class="page__container">
+				<fieldset class="form__fieldset clearfix">
+					<div class="form__main">
 						<h2 class="page__subtitle">Общая информация</h2>
-						<div class="row">
-							<div class="col-6">
-								<label for="txt_name" class="form__label">Имя</label>
-								<input type="text" name="name" id="txt_name" class="form__field">
-							</div>
-							<div class="col-6">
-								<label for="txt_surname" class="form__label">Фамилия</label>
-								<input type="text" name="surname" id="txt_surname" class="form__field">
-							</div>
+						<div class="form__main__col">
+							<label for="txt_name" class="form__label">Имя</label>
+							<input type="text" name="name" id="txt_name" class="form__field" required>
+						</div>
+						<div class="form__main__col">
+							<label for="txt_surname" class="form__label">Фамилия</label>
+							<input type="text" name="surname" id="txt_surname" class="form__field" required>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="form__aside">
 						<h2 class="page__subtitle">Ваше фото</h2>
 						<div class="foto__box user_size_lg">
 							<span class="user__icon"></span>
 							<a href="#" class="link foto__link">удалить фото</a>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-12"><h2 class="page__subtitle">Контактная информация</h2></div>
-					<div class="row">
-						<div class="col-8">
-							<div class="col-6">
+				</fieldset>
+				<fieldset class="form__fieldset clearfix">
+					<h2 class="page__subtitle">Контактная информация</h2>
+					<div class="form__clearfix">
+						<div class="form__main">
+							<div class="form__main__col">
 								<label for="txt_email" class="form__label">Электронная почта</label>
-								<input type="email" name="email" id="txt_email" class="form__field">
+								<input type="email" name="email" id="txt_email" class="form__field" required>
 							</div>
-							<div class="col-6">
+							<div class="form__main__col form__checkbox_contact">
 								<input type="checkbox" name="showHere-1" id="check_1" class="form__checkbox">
 								<label for="check_1" class="form__label_checkbox">отображать на сайте</label>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="form__aside">
 							<div class="tooltip tooltip_left">На этот адрес ты будешь получать уведомления о новых комментариях к твоей вещи или ответы продавцов.</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-8">
-							<div class="col-6">
+					<div class="form__line form__clearfix">
+						<div class="form__main">
+							<div class="form__main__col">
 								<label for="txt_phone" class="form__label">Телефон</label>
 								<input type="tel" name="phone" id="txt_phone" class="form__field">
 							</div>
-							<div class="col-6">
+							<div class="form__main__col form__checkbox_contact">
 								<input type="checkbox" name="showHere-2" id="check_2" class="form__checkbox">
 								<label for="check_2" class="form__label_checkbox">отображать на сайте</label>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-8">
-							<div class="col-6">
+					<div class="form__clearfix">
+						<div class="form__main">
+							<div class="form__main__col">
 								<label for="" class="form__label">Страна</label>
-								<select data-placeholder="Выберете страну" width="279px" class="chosen-select" tabindex="2">
+								<select data-placeholder="Выберете страну" width="279px" class="chosen-select" name="country">
 						            <option value=""></option>
 						            <option value="United States">United States</option>
 						            <option value="United Kingdom">United Kingdom</option>
 						            <option value="United Kingdom">United Kingdom</option>
 					            </select>
 							</div>
-							<div class="col-6">
+							<div class="form__main__col">
 								<label for="" class="form__label">Город</label>
-								<select data-placeholder="Выберете город" width="279px" class="chosen-select" tabindex="2">
+								<select data-placeholder="Выберете город" width="279px" class="chosen-select" name="city">
 						            <option value=""></option>
 						            <option value="United States">United States</option>
 						            <option value="United Kingdom">United Kingdom</option>
@@ -259,48 +257,42 @@
 					            </select>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="form__aside">
 							<div class="tooltip tooltip_left">Чтобы покупателям из твоего города было проще найти тебя, укажи в каком городе ты живешь.</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-8">
+				</fieldset>
+				<fieldset class="form__fieldset clearfix">
+					<div class="form__main">
 						<h2 class="page__subtitle">Социальные сети</h2>
-						<div class="row">
-							<div class="col-6">
-								<div class="social__container">
-									<a href="#" class="social__name social__icon social__icon_fb" title="Константин Константинопольский">Константин Константинопольский</a>
-									<a href="#" class="link">отвязать</a>
-								</div>
-							</div>
-							<div class="col-6">
-								<input type="checkbox" name="showHere-3" id="check_3" class="form__checkbox">
-								<label for="check_3" class="form__label_checkbox">отображать на сайте</label>
+						<div class="form__main__col">
+							<div class="social__container">
+								<a href="#" class="social__name social__icon social__icon_fb social__name_auth" title="Константин Константинопольский">Константин Константинопольский</a>
+								<a href="#" class="link">отвязать</a>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-6">
-								<div class="social__container">
-									<a href="#" class="social__name social__icon social__icon_vk social__name_auth">Альбина Токарчук</a>
-									<a href="#" class="link">отвязать</a>
-								</div>
-							</div>
-							<div class="col-6">
-								<input type="checkbox" name="showHere-4" id="check_4" class="form__checkbox">
-								<label for="check_4" class="form__label_checkbox">отображать на сайте</label>
+						<div class="form__main__col form__container_social">
+							<input type="checkbox" name="showHere-3" id="check_3" class="form__checkbox">
+							<label for="check_3" class="form__label_checkbox">отображать на сайте</label>
+						</div>
+						<div class="form__main__col">
+							<div class="social__container">
+								<a href="#" class="social__name social__icon social__icon_vk social__name_auth">Альбина Токарчук</a>
+								<a href="#" class="link">отвязать</a>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-6">
-								<div class="social__container">
-									<a href="#" class="social__name social__icon social__icon_ok">Одноклассники</a>
-									<a href="#" class="link">привязать</a>
-								</div>
+						<div class="form__main__col form__container_social">
+							<input type="checkbox" name="showHere-4" id="check_4" class="form__checkbox">
+							<label for="check_4" class="form__label_checkbox">отображать на сайте</label>
+						</div>
+						<div class="form__main__col">
+							<div class="social__container">
+								<a href="#" class="social__name social__icon social__icon_ok">Одноклассники</a>
+								<a href="#" class="link">привязать</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="form__aside">
 						<h2 class="page__subtitle">Уведомления</h2>
 						<ul class="list_basic">
 							<li class="list__item_basic">
@@ -313,13 +305,11 @@
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-12 container__final">
-						<input type="submit" value="Сохранить" class="btn-fill_green btn-fill btn-fill_size_lg btn-fill_rounded form__button form__submit">
-						<a href="#" class="link container__final__link">удалить аккаунт</a>
-					</div>
-				</div>
+				</fieldset>
+				<fieldset class="form__footer">
+					<input type="submit" value="Сохранить" class="btn-fill_green btn-fill btn-fill_size_lg btn-fill_rounded">
+					<a href="#" class="link form__footer__link">удалить аккаунт</a>
+				</fieldset>
 			</form>
 		</div>
 	</section>
