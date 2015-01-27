@@ -32,6 +32,9 @@ fieldset {
 	padding: 0 0 15px;
 	font-weight: 400;
 }
+.page__subtitle_margin-lg {
+    margin: 0 0 35px;
+}
 
 .form__fieldset {
 	margin: 0 0 40px;
