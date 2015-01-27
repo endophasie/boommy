@@ -26,7 +26,7 @@ fieldset {
 .page__subtitle {
 	color: #231f20;
 	font-size: 24px;
-	margin: 0 0 24px;
+	margin: 0 0 26px;
 	border-bottom: 1px solid #eee;
 	line-height: 1;
 	padding: 0 0 15px;
@@ -63,11 +63,11 @@ fieldset {
 	margin: 0 40px 0 0;
 	float: left;
 }
-	.form__main__col {
+	.form__main_col {
 		width: 292px;
 		float: left;
 	}
-	.form__main__col:nth-of-type(odd) {
+	.form__main_col:nth-of-type(odd) {
 		margin: 0 20px 0 0;
 	}
 
@@ -120,6 +120,10 @@ fieldset {
 	padding: 0 0 10px;
 	display: block;
 }
+    .form__asterisk {
+        color: #ccc;
+        margin: 0 0 0 5px;
+}
 
 .user_size_lg .user__icon {
 	width: 130px;
@@ -133,7 +137,7 @@ fieldset {
 }
 
 .form__checkbox_contact {
-    padding-top: 35px;
+    padding-top: 37px;
 }
 .form__container_social {
 	padding-top: 9px;
@@ -141,8 +145,8 @@ fieldset {
 
 .form__checkbox {
 	-webkit-appearance: none;
-	width: 16px;
-	height: 16px;
+	width: 18px;
+	height: 18px;
 	background: #fff;
 	border: 1px solid #d7d9df;
 	display: inline-block;
@@ -152,7 +156,7 @@ fieldset {
 	position: absolute;
 }
 .form__checkbox:checked {
-	background: url(../img/i_validation_true.png) 2px 2px no-repeat;
+	background: url(../img/i_validation_true.png) 3px 3px no-repeat;
 	background-size: 10px 10px;
 	border-color: #38dcaf;
 }
@@ -215,7 +219,7 @@ fieldset {
 .social__container {
 	border: 1px dashed #d7d9df;
 	border-radius: 4px;
-	padding: 6px 15px 6px 10px;
+	padding: 6px 12px 6px 10px;
 	width: 100%;
 	margin: 0 0 15px;
 	text-align: justify;
@@ -264,11 +268,12 @@ fieldset {
 	position: absolute;
 	width: 100%;
 	border-top: 1px solid #eee;
-	top: 50%;
-	margin: 0 0 0 20px;
+	top: 55%;
+	margin: 0 0 0 25px;
 }
 .form__footer__link {
-	margin: 0 0 0 20px;
+	margin: 0 0 0 19px;
+	font-size: 13px;
 }
 
 

@@ -190,12 +190,12 @@
 				<fieldset class="form__fieldset clearfix">
 					<div class="form__main">
 						<h2 class="page__subtitle">Общая информация</h2>
-						<div class="form__main__col">
-							<label for="txt_name" class="form__label">Имя</label>
+						<div class="form__main_col">
+							<label for="txt_name" class="form__label">Имя<sup class="form__asterisk">*</sup></label>
 							<input type="text" name="name" id="txt_name" class="form__field" required>
 						</div>
-						<div class="form__main__col">
-							<label for="txt_surname" class="form__label">Фамилия</label>
+						<div class="form__main_col">
+							<label for="txt_surname" class="form__label">Фамилия<sup class="form__asterisk">*</sup></label>
 							<input type="text" name="surname" id="txt_surname" class="form__field" required>
 						</div>
 					</div>
@@ -211,11 +211,11 @@
 					<h2 class="page__subtitle">Контактная информация</h2>
 					<div class="form__clearfix">
 						<div class="form__main">
-							<div class="form__main__col">
+							<div class="form__main_col">
 								<label for="txt_email" class="form__label">Электронная почта</label>
 								<input type="email" name="email" id="txt_email" class="form__field" required>
 							</div>
-							<div class="form__main__col form__checkbox_contact">
+							<div class="form__main_col form__checkbox_contact">
 								<input type="checkbox" name="showHere-1" id="check_1" class="form__checkbox">
 								<label for="check_1" class="form__label_checkbox">отображать на сайте</label>
 							</div>
@@ -226,11 +226,11 @@
 					</div>
 					<div class="form__line form__clearfix">
 						<div class="form__main">
-							<div class="form__main__col">
+							<div class="form__main_col">
 								<label for="txt_phone" class="form__label">Телефон</label>
 								<input type="tel" name="phone" id="txt_phone" class="form__field" placeholder="+7(911)555-56-87">
 							</div>
-							<div class="form__main__col form__checkbox_contact">
+							<div class="form__main_col form__checkbox_contact">
 								<input type="checkbox" name="showHere-2" id="check_2" class="form__checkbox">
 								<label for="check_2" class="form__label_checkbox">отображать на сайте</label>
 							</div>
@@ -238,7 +238,7 @@
 					</div>
 					<div class="form__clearfix">
 						<div class="form__main">
-							<div class="form__main__col">
+							<div class="form__main_col">
 								<label for="" class="form__label">Страна</label>
 								<select data-placeholder="Выберете страну" width="279px" class="chosen-select" name="country">
 						            <option value=""></option>
@@ -247,7 +247,7 @@
 						            <option value="United Kingdom">United Kingdom</option>
 					            </select>
 							</div>
-							<div class="form__main__col">
+							<div class="form__main_col">
 								<label for="" class="form__label">Город</label>
 								<select data-placeholder="Выберете город" width="279px" class="chosen-select" name="city">
 						            <option value=""></option>
@@ -265,27 +265,27 @@
 				<fieldset class="form__fieldset clearfix">
 					<div class="form__main">
 						<h2 class="page__subtitle">Социальные сети</h2>
-						<div class="form__main__col">
+						<div class="form__main_col">
 							<div class="social__container">
 								<a href="#" class="social__name social__icon social__icon_fb social__name_auth" title="Константин Константинопольский">Константин Константинопольский</a>
 								<a href="#" class="link">отвязать</a>
 							</div>
 						</div>
-						<div class="form__main__col form__container_social">
+						<div class="form__main_col form__container_social">
 							<input type="checkbox" name="showHere-3" id="check_3" class="form__checkbox">
 							<label for="check_3" class="form__label_checkbox">отображать на сайте</label>
 						</div>
-						<div class="form__main__col">
+						<div class="form__main_col">
 							<div class="social__container">
 								<a href="#" class="social__name social__icon social__icon_vk social__name_auth">Альбина Токарчук</a>
 								<a href="#" class="link">отвязать</a>
 							</div>
 						</div>
-						<div class="form__main__col form__container_social">
+						<div class="form__main_col form__container_social">
 							<input type="checkbox" name="showHere-4" id="check_4" class="form__checkbox">
 							<label for="check_4" class="form__label_checkbox">отображать на сайте</label>
 						</div>
-						<div class="form__main__col">
+						<div class="form__main_col">
 							<div class="social__container">
 								<a href="#" class="social__name social__icon social__icon_ok">Одноклассники</a>
 								<a href="#" class="link">привязать</a>
